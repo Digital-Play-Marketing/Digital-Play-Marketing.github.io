@@ -48,3 +48,11 @@ footer{
     width: 100%;
     background-color: gray;
 }
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  main{
+     flex-direction: column;
+  } 
+}
